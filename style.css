@@ -1,0 +1,38 @@
+body {
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header style */
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+    background-color: #161616;
+    border-radius: 30px;
+}
+
+.header-title {
+    width: 50%;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.header-img {
+    width: 50%;
+}
+
+.header-img img {
+    width: 80%;
+}
+
+.button {
+    text-decoration: none;
+    display: inline-block;
+    color: #FFFFFF;
+    background-color: #DD0000;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
